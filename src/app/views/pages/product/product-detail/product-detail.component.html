@@ -20,19 +20,9 @@
                 <h6 class="my-0">Product Price</h6>
               </div>
               <span class="text-muted" style="color: crimson !important;"
-                >₹ {{ product.productPrice }}</span
+                >{{ product.productPrice | currency: 'GBP' }}</span
               >
-            </li>
-            <li
-              class="list-group-item d-flex justify-content-between lh-condensed"
-            >
-              <div>
-                <h6 class="my-0">Product Seller</h6>
-              </div>
-              <span class="text-muted" style="color: crimson !important;">{{
-                product.productSeller
-              }}</span>
-            </li>
+            </li>            
           </ul>
           <button class="btn btn-primary" (click)="addToCart(product)">
             Add to Cart

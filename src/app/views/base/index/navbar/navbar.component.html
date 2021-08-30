@@ -44,7 +44,7 @@
             href="javascript:;;"
             [routerLink]="['/products/favourite-products']"
           >
-            <i class="fa fa-heart">
+            <i class="fa fa-heart" style="color: #fff;">
               <span class="mt-2">
                 {{ productService.getLocalFavouriteProducts().length }}</span
               >
@@ -59,7 +59,7 @@
             href="javascript:;;"
             [routerLink]="['/products/cart-items']"
           >
-            <i class="fa fa-shopping-cart">
+            <i class="fa fa-shopping-cart" style="color: #fff;">
               <span class="mt-2">
                 {{ productService.getLocalCartProducts().length }}</span
               >
