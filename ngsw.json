@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630673105685,
+  "timestamp": 1630739112275,
   "index": "https://vksakpal.github.io/ShoppingCart/index.html",
   "assetGroups": [
     {
@@ -25,7 +25,7 @@
         "https://vksakpal.github.io/ShoppingCart/runtime-es2015.d5593e677f8156123c03.js",
         "https://vksakpal.github.io/ShoppingCart/runtime-es5.d5593e677f8156123c03.js",
         "https://vksakpal.github.io/ShoppingCart/scripts.934a2ad9ce083841e57f.js",
-        "https://vksakpal.github.io/ShoppingCart/styles.a3228fdfe5dc07547726.css"
+        "https://vksakpal.github.io/ShoppingCart/styles.addb2e77ef0ec79c24eb.css"
       ],
       "patterns": []
     },
@@ -309,7 +309,7 @@
     "https://vksakpal.github.io/ShoppingCart/fontawesome-webfont.8b43027f47b20503057d.eot": "d980c2ce873dc43af460d4d572d441304499f400",
     "https://vksakpal.github.io/ShoppingCart/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "https://vksakpal.github.io/ShoppingCart/fontawesome-webfont.f691f37e57f04c152e23.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "https://vksakpal.github.io/ShoppingCart/index.html": "1f59204743ad1db59304defe00ce755f9c51ed82",
+    "https://vksakpal.github.io/ShoppingCart/index.html": "f1896c75dea2414b6a741a518cb3e978300bb369",
     "https://vksakpal.github.io/ShoppingCart/main-es2015.b3670ed85baabfc4abe9.js": "7875e0be1bd69bf58381bd7445d4d68339aea576",
     "https://vksakpal.github.io/ShoppingCart/main-es5.b3670ed85baabfc4abe9.js": "a4bca130dc29d6be57ecbfed21cb95e6a38642c1",
     "https://vksakpal.github.io/ShoppingCart/manifest.webmanifest": "391410563e0ccacd69b0005a30d8cf1dfc25d689",
@@ -319,7 +319,7 @@
     "https://vksakpal.github.io/ShoppingCart/runtime-es2015.d5593e677f8156123c03.js": "84ccd8fccc99a402b35d1221f2219b5eb3c54363",
     "https://vksakpal.github.io/ShoppingCart/runtime-es5.d5593e677f8156123c03.js": "e52e1bc989e0c957a96af767812172bb31f86872",
     "https://vksakpal.github.io/ShoppingCart/scripts.934a2ad9ce083841e57f.js": "ba2becfc57092dfdf6610d795a0647861acd7c87",
-    "https://vksakpal.github.io/ShoppingCart/styles.a3228fdfe5dc07547726.css": "64ce554f1d38e734975d9a6744c72fd6d6b9816c"
+    "https://vksakpal.github.io/ShoppingCart/styles.addb2e77ef0ec79c24eb.css": "57e13122fe267cf8246a05f93ea2819f9ce3133b"
   },
   "navigationUrls": [
     {
