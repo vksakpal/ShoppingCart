@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1630739112275,
+  "timestamp": 1630752237451,
   "index": "https://vksakpal.github.io/ShoppingCart/index.html",
   "assetGroups": [
     {
@@ -17,15 +17,15 @@
         "https://vksakpal.github.io/ShoppingCart/6-es5.ded1b401f1c4a38ed906.js",
         "https://vksakpal.github.io/ShoppingCart/favicon.ico",
         "https://vksakpal.github.io/ShoppingCart/index.html",
-        "https://vksakpal.github.io/ShoppingCart/main-es2015.b3670ed85baabfc4abe9.js",
-        "https://vksakpal.github.io/ShoppingCart/main-es5.b3670ed85baabfc4abe9.js",
+        "https://vksakpal.github.io/ShoppingCart/main-es2015.b0e7312e9218cdbe7d97.js",
+        "https://vksakpal.github.io/ShoppingCart/main-es5.b0e7312e9218cdbe7d97.js",
         "https://vksakpal.github.io/ShoppingCart/manifest.webmanifest",
         "https://vksakpal.github.io/ShoppingCart/polyfills-es2015.9bc0c10e2f0dc813316d.js",
         "https://vksakpal.github.io/ShoppingCart/polyfills-es5.a48453ee28de1ad8caf6.js",
         "https://vksakpal.github.io/ShoppingCart/runtime-es2015.d5593e677f8156123c03.js",
         "https://vksakpal.github.io/ShoppingCart/runtime-es5.d5593e677f8156123c03.js",
         "https://vksakpal.github.io/ShoppingCart/scripts.934a2ad9ce083841e57f.js",
-        "https://vksakpal.github.io/ShoppingCart/styles.addb2e77ef0ec79c24eb.css"
+        "https://vksakpal.github.io/ShoppingCart/styles.25b28f4f8f163d689ebb.css"
       ],
       "patterns": []
     },
@@ -309,9 +309,9 @@
     "https://vksakpal.github.io/ShoppingCart/fontawesome-webfont.8b43027f47b20503057d.eot": "d980c2ce873dc43af460d4d572d441304499f400",
     "https://vksakpal.github.io/ShoppingCart/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
     "https://vksakpal.github.io/ShoppingCart/fontawesome-webfont.f691f37e57f04c152e23.woff": "28b782240b3e76db824e12c02754a9731a167527",
-    "https://vksakpal.github.io/ShoppingCart/index.html": "f1896c75dea2414b6a741a518cb3e978300bb369",
-    "https://vksakpal.github.io/ShoppingCart/main-es2015.b3670ed85baabfc4abe9.js": "7875e0be1bd69bf58381bd7445d4d68339aea576",
-    "https://vksakpal.github.io/ShoppingCart/main-es5.b3670ed85baabfc4abe9.js": "a4bca130dc29d6be57ecbfed21cb95e6a38642c1",
+    "https://vksakpal.github.io/ShoppingCart/index.html": "70a196853fccce7c26d0ec975f8524e6204a183b",
+    "https://vksakpal.github.io/ShoppingCart/main-es2015.b0e7312e9218cdbe7d97.js": "b41c8c426215b9f821c23b18e12657cb45f98d88",
+    "https://vksakpal.github.io/ShoppingCart/main-es5.b0e7312e9218cdbe7d97.js": "9ee6be60e0df3a56193cd8521a18011910fdf332",
     "https://vksakpal.github.io/ShoppingCart/manifest.webmanifest": "391410563e0ccacd69b0005a30d8cf1dfc25d689",
     "https://vksakpal.github.io/ShoppingCart/owl.video.play.7f01b07148f205f6e825.png": "c0d64356ec2758cb280d183b4829c923e5ff61e5",
     "https://vksakpal.github.io/ShoppingCart/polyfills-es2015.9bc0c10e2f0dc813316d.js": "c6d88d9296fce6f540adda7d84ec599f801e1876",
@@ -319,7 +319,7 @@
     "https://vksakpal.github.io/ShoppingCart/runtime-es2015.d5593e677f8156123c03.js": "84ccd8fccc99a402b35d1221f2219b5eb3c54363",
     "https://vksakpal.github.io/ShoppingCart/runtime-es5.d5593e677f8156123c03.js": "e52e1bc989e0c957a96af767812172bb31f86872",
     "https://vksakpal.github.io/ShoppingCart/scripts.934a2ad9ce083841e57f.js": "ba2becfc57092dfdf6610d795a0647861acd7c87",
-    "https://vksakpal.github.io/ShoppingCart/styles.addb2e77ef0ec79c24eb.css": "57e13122fe267cf8246a05f93ea2819f9ce3133b"
+    "https://vksakpal.github.io/ShoppingCart/styles.25b28f4f8f163d689ebb.css": "38ddb03c9a4908871a77e6bf5a90d2d9e05f22a3"
   },
   "navigationUrls": [
     {
