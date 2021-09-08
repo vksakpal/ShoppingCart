@@ -1,7 +1,8 @@
 <div class="container">
   <ul class="list-group mb-3">
     <li
-      class="list-group-item d-flex justify-content-between lh-condensed"
+      class="list-group-item d-flex lh-condensed"
+      style="justify-content: start !important"
       *ngFor="let product of checkoutProducts"
     >
       <div>
@@ -12,21 +13,23 @@
           height="100"
         />
       </div>
-      <div style="padding: 10px;">
+      <div style="padding: 10px">
         <h6 class="my-0">{{ product.productName }}</h6>
-        <p>Product Seller : {{ product.productSeller }}</p>
       </div>
-      <span class="text-muted">₹ {{ product.productPrice }}</span>
+      <div style="flex-grow: 1"></div>
+      <span class="text-muted">{{
+        product.productPrice | currency: "GBP"
+      }}</span>
     </li>
     <hr />
     <li class="list-group-item d-flex justify-content-between">
-      <span>Total (INR)</span>
-      <strong>₹ {{ totalPrice }}</strong>
+      <span>Total</span>
+      <strong>{{ totalPrice | currency: "GBP" }}</strong>
     </li>
   </ul>
   <div class="float-right">
     <a
-      class="btn btn-default"
+      class="btn btn-primary"
       [routerLink]="[
         '/checkouts',
         { outlets: { checkOutlet: ['shipping-details'] } }

@@ -16,24 +16,7 @@
   </div> -->
   <div class="row">
     <div class="col-md-3">
-      <div class="form-group">
-        <label for="brand_select">By Brands:</label>
-        <select
-          class="form-control"
-          name=""
-          id="brand_select"
-          [(ngModel)]="selectedBrand"
-        >
-          <option *ngFor="let brand of brands" [ngValue]="brand">{{
-            brand
-          }}</option>
-        </select>
-      </div>
-      <ul class="list-group">
-        <li class="list-group-item">Cras justo odio</li>
-        <li class="list-group-item">Dapibus ac facilisis in</li>
-        <li class="list-group-item">Morbi leo risus</li>
-      </ul>
+      <app-widgets-filter></app-widgets-filter>
     </div>
     <div class="col-md-9">
       <div class="container">
@@ -79,11 +62,12 @@
                   <div class="card-body text-center no-padding">
                     <!--Category & Title-->
                     <a class="text-muted">
-                      <h5 style="color: #0074B7;">{{ product.productCategory }}</h5>
+                      <h5>{{ product.productCategory }}</h5>
                     </a>
                     <p class="card-title">
                       <strong>
-                        <a style="color: #003B73!important;"
+                        <a
+                          style="color: #c33 !important; font-size: 13px"
                           [routerLink]="['/products/product', product.$key]"
                           routerLinkActive="router-link-active"
                           >{{ product.productName }}</a
@@ -94,7 +78,9 @@
                     <p class="card-text">{{ product.productDescription }}</p>
                     <!--Card footer-->
                     <div class="card-footer">
-                      <span class="left">{{ product.productPrice | currency:'GBP' }}</span>
+                      <span class="left">{{
+                        product.productPrice | currency: "GBP"
+                      }}</span>
                       <span class="right">
                         <a
                           placement="top"
@@ -111,7 +97,7 @@
                           (click)="addToCart(product)"
                         >
                           <i class="fa fa-shopping-cart"></i>
-                        </a>                       
+                        </a>
                       </span>
                     </div>
                   </div>

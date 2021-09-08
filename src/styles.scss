@@ -3,13 +3,35 @@
 @import "./assets/theme/colors";
 @import "./assets/theme/functions";
 
-
 router-outlet ~ * {
-  position: absolute;
+  // position: absolute;
   width: 100%;
   height: 100%;
 }
 
 * {
   font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  color: #3d464d;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";
+
+.btn-primary,
+.btn-primary.disabled,
+.btn-primary:disabled {
+  border-color: #c33 !important;
+  background: #c33 !important;
+  color: #fff !important;
+  fill: #fff !important;
+}
+
+.ngx-pagination .current {
+  padding: 0.1875rem 0.625rem;
+  background: #c33 !important;
+  color: #fefefe;
+  cursor: default;
 }

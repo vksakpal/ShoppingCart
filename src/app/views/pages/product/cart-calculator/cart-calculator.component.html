@@ -10,15 +10,23 @@
     <div>
       <h6 class="my-0">{{ product.productName }}</h6>
     </div>
-    <span class="text-muted">{{ product.productPrice | currency: 'GBP' }}</span>
+    <span class="text-muted">{{ product.productPrice | currency: "GBP" }}</span>
   </li>
   <hr />
   <li class="list-group-item d-flex justify-content-between">
     <span>Total</span>
-    <strong>{{ totalValue | currency: 'GBP' }}</strong>
+    <strong>{{ totalValue | currency: "GBP" }}</strong>
   </li>
-  <a class="btn btn-primary" [routerLink]="['/products/all-products']"
-    >Continue Shipping</a
+  <a
+    class="btn btn-primary"
+    style="margin-top: 10px"
+    [routerLink]="['/products/all-products']"
+    >Continue Shopping</a
   >
-  <a class="btn btn-default" [routerLink]="['/checkouts']">Checkout</a>
+  <a
+    class="btn btn-primary"
+    style="margin-top: 10px"
+    [routerLink]="['/checkouts']"
+    >Checkout</a
+  >
 </ul>

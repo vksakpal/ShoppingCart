@@ -122,3 +122,10 @@
 .card .card-footer .right a .fa-heart {
   color: var(--navBackground) !important;
 }
+
+.ngx-pagination .current {
+  padding: 0.1875rem 0.625rem;
+  background: #c33 !important;
+  color: #fefefe;
+  cursor: default;
+}

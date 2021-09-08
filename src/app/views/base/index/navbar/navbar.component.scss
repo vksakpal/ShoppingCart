@@ -3,7 +3,7 @@
 
 .navbar {
   top: 0;
-  background: #003B73;
+  background: #003b73;
 }
 
 .color-container {
@@ -38,9 +38,333 @@
     background: #673ab7;
   }
 }
+.site-header__middle {
+  display: flex;
+  align-items: center;
+  height: 104px;
+}
+
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.site-header__logo {
+  flex-shrink: 0;
+  width: 255px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+}
+
+.site-header {
+  position: relative;
+  z-index: 100;
+  background: transparent;
+  color: inherit;
+}
+
+.search--location--header .search__body {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+}
+
+.search--location--header .search__form {
+  height: 42px;
+  display: flex;
+}
+
+[dir="ltr"] .search--location--header .search__categories {
+  border-right: 2px solid #e5e5e5;
+  padding-right: 31px;
+  margin-right: 0;
+  background-position: center right 13px;
+}
+
+.search--location--header .search__categories {
+  margin: 2px;
+  padding: 0 14px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-color: initial;
+  color: inherit;
+  font-size: 14px;
+  transition: background-color 0.2s;
+  max-width: 30%;
+  cursor: pointer;
+  border-radius: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 5 10'%3E%3Cpath fill='%234d4d4d' d='M4.503,4 L0.497,4 C0.094,4 -0.142,3.492 0.089,3.122 L2.095,0.233 C2.293,-0.084 2.712,-0.084 2.911,0.233 L4.911,3.122 C5.142,3.492 4.906,4 4.503,4 ZM0.497,6 L4.503,6 C4.906,6 5.142,6.504 4.911,6.871 L2.905,9.737 C2.707,10.052 2.288,10.052 2.089,9.737 L0.089,6.871 C-0.142,6.504 0.094,6 0.497,6 Z'/%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: 5px 10px;
+}
+
+select {
+  word-wrap: normal;
+}
+
+.search--location--header .search__input {
+  border: none;
+  padding: 0 17px;
+  background: transparent;
+  width: 1px;
+  flex-grow: 1;
+  font-size: 15px;
+  transition: color 0.15s;
+  color: inherit;
+}
+
+.search--location--header .search__button {
+  border: none;
+  padding: 0;
+  background: transparent;
+  flex-grow: 0;
+  width: 42px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fill: #bfbfbf;
+  transition: fill 0.15s;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+.search--location--header .search__input ~ .search__border {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px #e5e5e5;
+}
+
+input {
+  -webkit-writing-mode: horizontal-tb !important;
+  text-rendering: auto;
+  color: -internal-light-dark(black, white);
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  margin: 0em;
+  font: 400 13.3333px Arial;
+  padding: 1px 2px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+.search--location--header .search__border {
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  transition: box-shadow 0.15s, background 0.15s;
+}
+
+.search__input {
+  width: 85%;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+[dir="ltr"] .site-header__phone {
+  text-align: right;
+  margin-left: 80px;
+}
+
+.site-header__phone {
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.site-header__phone-title {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 6px;
+}
+
+.site-header__phone-number {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.site-header__middle {
+  display: flex;
+  align-items: center;
+  height: 104px;
+}
+
+.topbar__item,
+.topbar__row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.topbar {
+  height: 32px;
+  background: #f7f7f7;
+  box-shadow: none;
+  border-bottom: none;
+  font-size: 14px;
+  line-height: 14px;
+  color: #737373;
+  position: relative;
+  z-index: 20;
+}
+
+.topbar__container {
+  height: 100%;
+}
+
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1140px;
+}
+
+.topbar__item,
+.topbar__row {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.topbar-link {
+  color: inherit;
+  transition: color 0.3s;
+}
+
+a,
+a:hover {
+  color: #c33;
+}
+
+.topbar-dropdown--opened .topbar-dropdown__btn,
+.topbar-dropdown__btn:focus,
+.topbar-dropdown__btn:hover {
+  background: #ebebeb;
+  color: #3d464d;
+  fill: #999;
+}
+
+.site_header {
+  width: 100% !important;
+  max-width: 100%;
+  padding: 0;
+}
+
+.margin-left-16 {
+  margin-left: 16px;
+}
+
+.topbar-dropdown,
+.topbar-dropdown__btn {
+  position: relative;
+  height: 100%;
+}
+
+.topbar-dropdown__btn {
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: all 0.1s;
+  background: transparent;
+  color: inherit;
+  fill: #bfbfbf;
+}
+
+.topbar__spring {
+  flex-grow: 1;
+}
+
+.menu--layout--topbar .menu__list {
+  padding: 6px 0;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.menu__list {
+  list-style: none;
+  padding: 10px 0;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  -webkit-overflow-scrolling: touch;
+  overflow-scrolling: touch;
+  flex-grow: 1;
+  margin: 0;
+}
+
+.menu__item {
+  padding-top: 10px;
+  margin-top: -10px;
+  pointer-events: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.menu--layout--topbar .menu__item-link {
+  padding-right: 21px;
+  padding-left: 13px;
+}
 
 ::ng-deep {
   .dropdown-menu {
     margin-left: -6rem;
   }
+}
+
+.site-header__phone {
+  margin-left: 0 !important;
+}
+
+.site-header__logo {
+  margin-right: 0 !important;
 }

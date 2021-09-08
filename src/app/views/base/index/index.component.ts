@@ -6,21 +6,23 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./index.component.scss"],
 })
 export class IndexComponent implements OnInit {
+
+  collapsed;
+
   carouselList = [
     {
-      bannerImg: "./assets/banner_img/img_1.jpg",
-      title: "Apple iPhone",
-      description: "Explore iPhone, the world's most powerful personal device",
+      bannerImg: "./assets/img/slides/slide-1.jpg",
+      title: "Big choice of Plumbing products",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra laoreet dui quis molestie.",
     },
     {
-      bannerImg: "./assets/banner_img/img_3.jpg",
-      title: "Never Settle - OnePlus",
-      description:
-        " OnePlus creates beautifully designed products with premium build quality & brings the best technology to users around the world",
+      bannerImg: "./assets/img/slides/slide-2.jpg",
+      title: "Screwdrivers - Professional Tools",
+      description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam pharetra laoreet dui quis molestie."
     },
     {
-      bannerImg: "./assets/banner_img/img_4.jpg",
-      title: "Google Pixel",
+      bannerImg: "./assets/img/slides/slide-3.jpg",
+      title: "One more Unique Header",
       description: "Discover a better way to capture, store, and see the world",
     },
   ];

@@ -2,7 +2,7 @@
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { RouterModule } from "@angular/router";
-
+import { NgxSliderModule } from "@angular-slider/ngx-slider";
 // configuration and services
 import { ProductRoutes } from "./product.routing";
 
@@ -18,10 +18,12 @@ import { SharedModule } from "../../../shared/shared.module";
 import { FavouriteProductsComponent } from "./favourite-products/favourite-products.component";
 import { CartProductsComponent } from "./cart-products/cart-products.component";
 import { CartCalculatorComponent } from "./cart-calculator/cart-calculator.component";
+import { WidgetsFilterComponent } from "./widgets-filter/widgets-filter.component";
 
 @NgModule({
   imports: [
     CommonModule,
+    NgxSliderModule,
     RouterModule.forChild(ProductRoutes),
     SharedModule,
     CheckoutModule,
@@ -35,6 +37,7 @@ import { CartCalculatorComponent } from "./cart-calculator/cart-calculator.compo
     FavouriteProductsComponent,
     CartProductsComponent,
     CartCalculatorComponent,
+    WidgetsFilterComponent,
   ],
   exports: [BestProductComponent],
 })

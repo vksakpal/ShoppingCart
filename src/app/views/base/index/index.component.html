@@ -23,7 +23,7 @@
         *ngFor="let carouselItem of carouselList; let i = index"
         class="carousel-item {{ i === 0 ? 'active' : '' }}"
       >
-        <div class="view">
+        <div class="view" style="margin-top: 10px;">
           <img
             class="d-block w-100"
             [src]="carouselItem.bannerImg"
@@ -63,3 +63,7 @@
   <br />
   <app-best-product></app-best-product>
 </div>
+<div>
+  <app-footer></app-footer>
+</div>
+

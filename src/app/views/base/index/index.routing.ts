@@ -13,7 +13,7 @@ export const IndexRoutes: Routes = [
       {
         path: "login",
         component: LoginComponent,
-      },
+      }      
     ],
   },
 ];

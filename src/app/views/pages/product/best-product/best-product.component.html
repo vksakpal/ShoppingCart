@@ -10,7 +10,7 @@
     </div>
     <div class="col-md-6">
       <a
-        class="btn btn-default float-right"
+        class="btn btn-primary float-right"
         [routerLink]="['/products/all-products']"
         >{{ translate.data["VIEWALL"] | translate }}</a
       >
@@ -75,7 +75,7 @@
 
             <!--Card footer-->
             <div class="card-footer">
-              <span class="left">₹ {{ product.productPrice }}</span>
+              <span class="left"> {{ product.productPrice | currency: 'GBP' }}</span>
               <span class="right">
                 <a
                   placement="top"

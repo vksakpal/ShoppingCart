@@ -13,6 +13,11 @@ import { IndexComponent } from "./index.component";
 import { LoginComponent } from "./login/login.component";
 import { FooterComponent } from "./footer/footer.component";
 import { NavbarComponent } from "./navbar/navbar.component";
+import { MenubarComponent } from './menubar/menubar.component';
+import { AppfootercontactsComponent } from './appfootercontacts/appfootercontacts.component';
+import { AppFooterLinksComponent } from './app-footer-links/app-footer-links.component';
+import { FooterAccountsComponent } from './footer-accounts/footer-accounts.component';
+import { FooterNewsletterComponent } from './footer-newsletter/footer-newsletter.component';
 
 @NgModule({
   imports: [
@@ -26,6 +31,11 @@ import { NavbarComponent } from "./navbar/navbar.component";
     NavbarComponent,
     LoginComponent,
     FooterComponent,
+    MenubarComponent,
+    AppfootercontactsComponent,
+    AppFooterLinksComponent,
+    FooterAccountsComponent,
+    FooterNewsletterComponent
   ],
   schemas: [NO_ERRORS_SCHEMA],
   exports: [NavbarComponent, FooterComponent],

@@ -15,6 +15,8 @@ declare var $: any;
 export class NavbarComponent implements OnInit {
   angularVersion = VERSION;
 
+  collapsed = true;
+
   colorPallet1 = [
     {
       title: "Purple Theme",

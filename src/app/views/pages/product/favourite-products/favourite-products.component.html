@@ -47,7 +47,9 @@
 
               <!--Card footer-->
               <div class="card-footer">
-                <span class="left">₹ {{ product.productPrice }}</span>
+                <span class="left">{{
+                  product.productPrice | currency: "GBP"
+                }}</span>
                 <span class="right">
                   <a
                     placement="top"

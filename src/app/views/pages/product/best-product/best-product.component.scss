@@ -2,11 +2,11 @@
 @import "../../../../../assets/theme/functions";
 
 .bq-title {
-  color: var(--productTitle) !important;
+  color: #c33 !important;
 }
 
 .bq-primary {
-  border-left: 3px solid var(--productTitle) !important;
+  border-left: 3px solid #c33 !important;
 }
 
 .btn-default {
@@ -131,4 +131,9 @@
 
 .card .card-footer .right a .fa-heart {
   color: var(--navBackground) !important;
+}
+
+.card .card-body .card-title a {
+  color: #c33 !important;
+  font-size: 13px;
 }

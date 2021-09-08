@@ -14,6 +14,10 @@ import { ProductModule } from "./views/pages/product/product.module";
 import { UserModule } from "./views/pages/user/user.module";
 import { ServiceWorkerModule } from "@angular/service-worker";
 import { environment } from "../environments/environment";
+import { FlexLayoutModule } from "@angular/flex-layout";
+import { NgbDropdownModule, NgbModule } from "@ng-bootstrap/ng-bootstrap";
+import { FontAwesomeModule } from "@fortawesome/angular-fontawesome";
+import { NgxSliderModule } from "@angular-slider/ngx-slider";
 
 /* to load and set en.json as the default application language */
 export function setupTranslateFactory(service: TranslateService) {
@@ -29,10 +33,15 @@ export function setupTranslateFactory(service: TranslateService) {
     ProductModule,
     UserModule,
     SharedModule,
+    FlexLayoutModule,
+    NgbDropdownModule,
+    FontAwesomeModule,
+    NgxSliderModule,
     ServiceWorkerModule.register("./ngsw-worker.js", {
       enabled: environment.production,
       registrationStrategy: "registerImmediately",
     }),
+    NgbModule,
     // AngularFireModule.initializeApp(FireBaseConfig),
     // AngularFireDatabaseModule,
   ],

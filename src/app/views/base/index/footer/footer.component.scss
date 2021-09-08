@@ -1,3 +1,29 @@
 .page-footer {
   bottom: 0;
 }
+
+.site-footer {
+  margin-top: 16px;
+  background: transparent;
+  border-top: 1px solid #ebebeb;
+}
+
+.site__footer {
+  flex-shrink: 0;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1140px;
+}
+
+.site-footer__widgets {
+  padding: 48px 0 54px;
+}
+
+.site__footer > a,
+li {
+  color: #3d464d;
+}
